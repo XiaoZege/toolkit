@@ -1,0 +1,19 @@
+[project]
+name = "toolkit"
+version = "0.1.0"
+description = "计时、重试、日志、临时切目录的小工具包"
+readme = "README.md"
+authors = [
+    { name = "XiaoZege", email = "2028557260@qq.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
